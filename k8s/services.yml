@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: survey-app
+  namespace: python-app
+  labels:
+    app: survey-app
+spec:
+  selector:
+    app: survey-app
+  type: NodePort
+
+  ports:
+  - port: 8000
+    targetPort: 8000
