@@ -1,2 +1,4 @@
 # Survey-Web-App
-build throw out Docker
+Docker 
+Ansible 
+kubernetes
